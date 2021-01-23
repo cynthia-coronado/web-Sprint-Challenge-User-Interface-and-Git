@@ -178,36 +178,51 @@ footer nav a {
 }
 
 .about-info {
-    margin-bottom: 2rem;
     border-bottom: 1px dashed black;
+}
+
+.about-info p {
+    margin-bottom: 2rem;
 }
 
 .about-top {
     display: flex;
     flex-wrap: wrap;    
-    justify-content: center;
-    align-content: space-around;
+    justify-content: space-between;
+    align-content: center;  
     margin-bottom: 3rem; 
 }
 
 .about-top .text-container {
-    width: 20rem;
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 10px;
 }
 
 .text-container {
-    margin-right: 3rem;
-    border-bottom: 2px dashed black;
+    border-bottom: 1px dashed black;
 }
 
 .text-container a {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
     border: 2px solid black;
+    text-align: center;
     text-decoration: none;
-    border-radius: 20% 20%;
+    border-radius: 10px;
+    padding: 5px;
     color: black;
+    margin: 0 16.75rem;
+    margin-left: 0;
+    margin-bottom: 1rem;
 }
 
+
 .text-container p {
-    margin-bottom: 2rem;;
+    display: flex;
+    align-content: flex-start;
+    margin-bottom: 2rem;
 }
 
 .text-container img {
@@ -216,10 +231,14 @@ footer nav a {
 
 }
 
+.about-plan {
+    margin-left: 1rem   ;
+}
+
 .about-plan h6 {
     margin-bottom: 1rem;
 }
 
 .about-plan p {
-    margin-bottom: 2rem;;
+    margin-bottom: 2rem;
 }
