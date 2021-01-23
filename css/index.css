@@ -206,12 +206,13 @@ footer nav a {
 .text-container a {
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
     border: 2px solid black;
     text-align: center;
     text-decoration: none;
     border-radius: 10px;
-    padding: 5px;
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
     color: black;
     margin: 0 16.75rem;
     margin-left: 0;
